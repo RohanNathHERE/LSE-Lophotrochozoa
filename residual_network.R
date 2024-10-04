@@ -1,17 +1,6 @@
 # Load necessary library
 library(igraph)
 
-# The dataset should be a data frame named 'gpcr_data' with the following structure:
-#  - Column 1: TM1 (numeric) - Represents the first transmembrane domain (TM).
-#  - Column 2: TM2 (numeric) - Represents the second transmembrane domain (TM).
-#  - Column 3: connections (numeric) - Number of connections between the TM domains.
-# Example:
-# gpcr_data <- data.frame(
-#   TM1 = c(1, 1, 2, ...),  # Numeric identifiers for TM
-#   TM2 = c(2, 3, 3, ...),  # Numeric identifiers for TM
-#   connections = c(5, 3, 4, ...)  # Number of connections between TMs
-# )
-
 # Ensure TM7 appears in the graph even without connections
 all_tms <- c(1, 2, 3, 4, 5, 6, 7)
 
@@ -38,6 +27,9 @@ node_coords <- matrix(
   ncol = 2, byrow = TRUE  # Organize coordinates into two columns (x, y)
 )
 
+# Set edge labels to show connection values
+E(g)$label <- E(g)$weight
+
 # Plot the graph with customized attributes
 plot(
   g,
@@ -45,10 +37,12 @@ plot(
   vertex.label = paste0("TM", V(g)$name),  # Label each TM inside the node
   vertex.label.cex = 1.2,  # Font size for labels
   vertex.label.color = "black",  # Color of the labels
-  edge.width = E(g)$weight,  # Thickness of the edges based on connections
+  edge.width = E(g)$weight / 2,  # Scale down the edge thickness (modify factor as needed)
   edge.color = "gray50",  # Color of the edges for visual clarity
   vertex.color = node_colors,  # Different colors for each node
   vertex.shape = "circle",  # Shape of the vertices
   layout = node_coords,  # Use custom coordinates for circular layout
-  edge.curved = 0.2  # Curvature of the edges for aesthetic appeal
+  edge.curved = 0.2,  # Curvature of the edges for aesthetic appeal
+  edge.label.cex = 0.8,  # Font size for edge labels
+  edge.label.color = "black"  # Color for edge labels
 )
