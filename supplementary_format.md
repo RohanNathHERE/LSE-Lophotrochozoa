@@ -1,3 +1,4 @@
+```
 .
 └── supplementary_files
     ├── BUSCO
@@ -2202,68 +2203,64 @@
     │   └── S2.pdf
     ├── table S1.xlsx
     └── table S2.xlsx
-
+```
 107 directories, 2107 files
 
 
-Directory Structure
+### Directory Structure
 
-BUSCO/
+**BUSCO/**
 Contains results from the BUSCO analysis, with scores categorized by taxa. Files follow the naming pattern:
 
 short_summary.specific.metazoa_odb10.<species_name>.busco.txt
 
-Fasta_files/
+**Fasta_files/**
 Contains FASTA files for various gene sequences, organized by taxonomy.
 
-1. full_length/: FASTA files for full-length protein sequences.
-2. lse/: FASTA files for lineage-specific expanded gene sequences.
-3. one_to_one_ortholog/: FASTA files for one-to-one orthologous gene sequences.
-4. pseudogene/: FASTA files for pseudogene sequences.
-5. total/: FASTA files for total Class A GPCR sequences.
-6. truncated/: FASTA files for truncated sequences.
+1. **full_length/**: FASTA files for full-length protein sequences.
+2. **lse/**: FASTA files for lineage-specific expanded gene sequences.
+3. **one_to_one_ortholog/**: FASTA files for one-to-one orthologous gene sequences.
+4. **pseudogene/**: FASTA files for pseudogene sequences.
+5. **total/**: FASTA files for total Class A GPCR sequences.
+6. **truncated/**: FASTA files for truncated sequences.
 
-Phylogenetic_trees/
+**Phylogenetic_trees/**
 
 Contains phylogenetic trees across multiple taxa, organized into distinct subdirectories:
 
-1. intragenus_tree/: Phylogenetic trees for species within the same genus (e.g., Bivalvia, Gastropoda, Macrostomum, Phoronis).
-2. main_tree/: Broader phylogenetic trees covering larger taxonomic groups (e.g., Bivalvia, Gastropoda, Cephalopoda, Annelida) with various file formats generated during analysis (.faa, .phy, IQ-Tree results).
-3. supplementary_tree/: Supplementary trees for various taxa.
+1. **intragenus_tree/**: Phylogenetic trees for species within the same genus (e.g., Bivalvia, Gastropoda, Macrostomum, Phoronis).
+2. **main_tree/**: Broader phylogenetic trees covering larger taxonomic groups (e.g., Bivalvia, Gastropoda, Cephalopoda, Annelida) with various file formats generated during analysis (.faa, .phy, IQ-Tree results).
+3. **supplementary_tree/**: Supplementary trees for various taxa.
 
-Residue_contact_analysis/
+**Residue_contact_analysis/**
 
 Contains residue contact data for various taxa groups, organized by taxonomy, for protein interaction studies. Data consists of .tsv files detailing residual contacts in the format:
 
 [species][accession_number]_h_contacts.tsv
 
-scaffold_coordinates/
+**scaffold_coordinates/**
 
 Contains files with scaffold coordinates used in the analysis of LSEs.
 
-1. main_tree/: Coordinates for scaffolds used in the main phylogenetic tree.
-2. supplementary_tree/: Coordinates for scaffolds used in the supplementary phylogenetic tree.
+1. **main_tree/**: Coordinates for scaffolds used in the main phylogenetic tree.
+2. **supplementary_tree/**: Coordinates for scaffolds used in the supplementary phylogenetic tree.
 
-Supplementary_figures/
+**Supplementary_figures/**
 
 Contains supplementary figures relevant to the analysis, including phylogenetic trees and statistical visualizations.
 
-1. S1.ai / S1.pdf: Supplementary phylogenetic trees for each taxa.
-2. S2.ai / S2.pdf: Intragenus phylogenetic tree, supplementary statistical test and the corresponding raincloud plot, and ECL-ECL residual network heatmap.
+1. **S1.ai / S1.pdf**: Supplementary phylogenetic trees for each taxa.
+2. **S2.ai / S2.pdf**: Intragenus phylogenetic tree, supplementary statistical test and the corresponding raincloud plot, and ECL-ECL residual network heatmap.
 
-Table S1.xlsx
-
+**Table S1.xlsx**
 This file consists of two sheets providing comprehensive data on the 238 taxa analyzed in this study.
 
-1. Sheet 1 (GPCR_count):
-Contains detailed classification information such as taxonomic clade, phylum, class, order, family, and species name.
+1. **Sheet 1 (GPCR_count)**: Contains detailed classification information such as taxonomic clade, phylum, class, order, family, and species name.
 Metrics related to Class A GPCRs include total counts, orthologous gene counts, lineage-specific expansions (LSE), full-length genes, truncated genes, and pseudogenes.
 Additional columns present percentages of orthologs, LSE, full-length, truncated, and pseudogenes, as well as genome size, sequence type, BUSCO score, RefSeq category, genome representation, assembly, coverage, source of the data, and habitat.
-2. Sheet 2 (WGD):
-Contains notes from a literature survey on whole genome duplication events across the 238 taxa, offering insights into the occurrence or absence of WGD.
+2. **Sheet 2 (WGD)**: Contains notes from a literature survey on whole genome duplication events across the 238 taxa, offering insights into the occurrence or absence of WGD.
 
-Table S2.xlsx
-
+**Table S2.xlsx**
 This file contains a comparison of the total number of residual pairs among the 238 taxa, categorized into various groups including gastropoda, bivalvia, cephalopoda, other molluscan classes, annelida, platyhelminthes, and other lophotrochozoan phyla. It highlights:
 
 1. The number of unique categories of interactions observed.
