@@ -2199,10 +2199,20 @@
     ├── Supplementary_figures
     │   ├── S1.ai
     │   ├── S1.pdf
-    │   ├── S2.ai
-    │   └── S2.pdf
-    ├── table S1.xlsx
-    └── table S2.xlsx
+    │   ├── S1.png
+    │   └── S2.ai
+    │   ├── S2.pdf
+    │   ├── S2.png
+    │   ├── S3.ai
+    │   └── S3.pdf
+    │   ├── S3.png
+    │   ├── S4.ai
+    │   ├── S4.pdf
+    │   └── S4.png
+    ├── data S1.xlsx
+    ├── data S2.xlsx
+    └── data S3.xlsx
+    
 ```
 107 directories, 2107 files
 
@@ -2252,7 +2262,7 @@ Contains supplementary figures relevant to the analysis, including phylogenetic 
 1. **S1.ai / S1.pdf**: Supplementary phylogenetic trees for each taxa.
 2. **S2.ai / S2.pdf**: Intragenus phylogenetic tree, supplementary statistical test and the corresponding raincloud plot, and ECL-ECL residual network heatmap.
 
-**Table S1.xlsx**
+**Data S1.xlsx**
 This file consists of two sheets providing comprehensive data on the 238 taxa analyzed in this study.
 
 1. **Sheet 1 (GPCR_count)**: Contains detailed classification information such as taxonomic clade, phylum, class, order, family, and species name.
@@ -2260,7 +2270,10 @@ Metrics related to Class A GPCRs include total counts, orthologous gene counts, 
 Additional columns present percentages of orthologs, LSE, full-length, truncated, and pseudogenes, as well as genome size, sequence type, BUSCO score, RefSeq category, genome representation, assembly, coverage, source of the data, and habitat.
 2. **Sheet 2 (WGD)**: Contains notes from a literature survey on whole genome duplication events across the 238 taxa, offering insights into the occurrence or absence of WGD.
 
-**Table S2.xlsx**
+**Data S2.xlsx**
+This file contains the data used for the statistical analyses and the corresponding results.
+
+**Data S3.xlsx**
 This file contains a comparison of the total number of residual pairs among the 238 taxa, categorized into various groups including gastropoda, bivalvia, cephalopoda, other molluscan classes, annelida, platyhelminthes, and other lophotrochozoan phyla. It highlights:
 
 1. The number of unique categories of interactions observed.
