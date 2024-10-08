@@ -249,6 +249,9 @@
     │       ├── short_summary.specific.metazoa_odb10.Taenia_saginata.busco.txt
     │       ├── short_summary.specific.metazoa_odb10.Taenia_solium.busco.txt
     │       └── short_summary.specific.metazoa_odb10.Trichobilharzia_regenti.busco.txt
+    ├── data S1.xlsx
+    ├── data S2.xlsx
+    ├── data S3.xlsx
     ├── Fasta_files
     │   ├── full_length
     │   │   ├── annelida
@@ -263,7 +266,6 @@
     │   │   │   ├── Eudrilus_eugeniae.faa
     │   │   │   ├── Harmothoe_impar.faa
     │   │   │   ├── Helobdella_robusta.faa
-    │   │   │   ├── Hirudinaria_manillensis.faa
     │   │   │   ├── Hydroides_elegans.faa
     │   │   │   ├── Lamellibrachia_luymesi.faa
     │   │   │   ├── Lamellibrachia_satsuma.faa
@@ -287,25 +289,16 @@
     │   │   │   ├── Atrina_japonica.faa
     │   │   │   ├── Bathymodiolus_platifrons.faa
     │   │   │   ├── Botula_fusca.faa
-    │   │   │   ├── Cerastoderma_edule(1).faa
     │   │   │   ├── Cerastoderma_edule.faa
-    │   │   │   ├── Chlamys_farreri(1).faa
     │   │   │   ├── Chlamys_farreri.faa
     │   │   │   ├── Conchocele_bisecta.faa
-    │   │   │   ├── Congeria_kusceri(1).faa
     │   │   │   ├── Congeria_kusceri.faa
     │   │   │   ├── Corbicula_fluminea.faa
-    │   │   │   ├── Crassostrea_angulata.faa
     │   │   │   ├── Crassostrea_ariakensis.faa
-    │   │   │   ├── Crassostrea_gigas(1).faa
     │   │   │   ├── Crassostrea_gigas.faa
-    │   │   │   ├── Crassostrea_hongkongensis(1).faa
     │   │   │   ├── Crassostrea_hongkongensis.faa
-    │   │   │   ├── Crassostrea_virginica(1).faa
     │   │   │   ├── Crassostrea_virginica.faa
-    │   │   │   ├── Cristaria_plicata(1).faa
     │   │   │   ├── Cristaria_plicata.faa
-    │   │   │   ├── Dreissena_polymorpha(1).faa
     │   │   │   ├── Dreissena_polymorpha.faa
     │   │   │   ├── Dreissena_rostriformis.faa
     │   │   │   ├── Fragum_fragum.faa
@@ -315,25 +308,18 @@
     │   │   │   ├── Hyriopsis_cumingii.faa
     │   │   │   ├── Laternula_elliptica.faa
     │   │   │   ├── Limnoperna_fortunei.faa
-    │   │   │   ├── Lithophaga_antillarum(1).faa
     │   │   │   ├── Lithophaga_antillarum.faa
     │   │   │   ├── Lithophaga_nigra.faa
     │   │   │   ├── Mactra_quadrangularis.faa
-    │   │   │   ├── Magallana_hongkongensis(1).faa
     │   │   │   ├── Magallana_hongkongensis.faa
-    │   │   │   ├── Margaritifera_margaritifera(1).faa
     │   │   │   ├── Margaritifera_margaritifera.faa
-    │   │   │   ├── Mercenaria_mercenaria(1).faa
     │   │   │   ├── Mercenaria_mercenaria.faa
-    │   │   │   ├── Mizuhopecten_yessoensis(1).faa
     │   │   │   ├── Mizuhopecten_yessoensis.faa
     │   │   │   ├── Modiolus_philippinarum.faa
     │   │   │   ├── Mya_arenaria.faa
     │   │   │   ├── Mytilisepta_virgata.faa
-    │   │   │   ├── Mytilus_californianus(1).faa
     │   │   │   ├── Mytilus_californianus.faa
     │   │   │   ├── Mytilus_coruscus.faa
-    │   │   │   ├── Mytilus_edulis(1).faa
     │   │   │   ├── Mytilus_edulis.faa
     │   │   │   ├── Mytilus_galloprovincialis.faa
     │   │   │   ├── Ostrea_edulis.faa
@@ -341,7 +327,6 @@
     │   │   │   ├── Panopea_generosa.faa
     │   │   │   ├── Patinopecten_yessoensis.faa
     │   │   │   ├── Pecten_maximus.faa
-    │   │   │   ├── Perna_viridis(1).faa
     │   │   │   ├── Perna_viridis.faa
     │   │   │   ├── Pinctada_fucata.faa
     │   │   │   ├── Pinctada_fucata_martensii.faa
@@ -351,27 +336,21 @@
     │   │   │   ├── Saccostrea_glomerata.faa
     │   │   │   ├── Saxidomus_purpurata.faa
     │   │   │   ├── Scapharca_broughtonii.faa
-    │   │   │   ├── Sinonovacula_constricta(1).faa
     │   │   │   ├── Sinonovacula_constricta.faa
     │   │   │   ├── Spisula_solida.faa
-    │   │   │   ├── Tegillarca_granosa(1).faa
-    │   │   │   ├── Tegillarca_granosa(2).faa
     │   │   │   ├── Tegillarca_granosa.faa
     │   │   │   ├── Tridacna_crocea.faa
     │   │   │   ├── Tridacna_gigas.faa
-    │   │   │   ├── Unio_delphinus(1).faa
     │   │   │   ├── Unio_delphinus.faa
     │   │   │   └── Unio_pictorum.faa
     │   │   ├── cephalopoda
     │   │   │   ├── Architeuthis_dux.faa
-    │   │   │   ├── Argonauta_argo.faa
     │   │   │   ├── Euprymna_scolopes.faa
     │   │   │   ├── Hapalochlaena_maculosa.faa
     │   │   │   ├── Japetella_diaphana.faa
     │   │   │   ├── Muusoctopus_leioderma.faa
     │   │   │   ├── Muusoctopus_longibrachus.faa
     │   │   │   ├── Nautilus_pompilius.faa
-    │   │   │   ├── Octopoteuthis_deletron.faa
     │   │   │   ├── Octopus_bimaculoides.faa
     │   │   │   ├── Octopus_insularis.faa
     │   │   │   ├── Octopus_maya.faa
@@ -399,6 +378,7 @@
     │   │   │   ├── Conus_betulinus.faa
     │   │   │   ├── Conus_consors.faa
     │   │   │   ├── Conus_tribblei.faa
+    │   │   │   ├── Dirona_pellucida(1).faa
     │   │   │   ├── Dirona_pellucida.faa
     │   │   │   ├── Dracogyra_subfuscus.faa
     │   │   │   ├── Elysia_chlorotica.faa
@@ -976,15 +956,11 @@
     │   │   │   ├── Alitta_virens.pseudogene.faa
     │   │   │   ├── Amphiduros_pacificus.pseudogene.faa
     │   │   │   ├── Amynthas_corticis.pseudogene.faa
-    │   │   │   ├── Aporrectodea_caliginosa.pseudogene.faa
-    │   │   │   ├── Branchipolynoe_longqiensis.pseudogene.faa
     │   │   │   ├── Capitella_teleta.pseudogene.faa
     │   │   │   ├── Dimorphilus_gyrociliatus.pseudogene.faa
-    │   │   │   ├── Eisenia_fetida.pseudogene.faa
     │   │   │   ├── Eudrilus_eugeniae.pseudogene.faa
     │   │   │   ├── Harmothoe_impar.pseudogene.faa
     │   │   │   ├── Helobdella_robusta.pseudogene.faa
-    │   │   │   ├── Hirudo_medicinalis.pseudogene.faa
     │   │   │   ├── Hydroides_elegans.pseudogene.faa
     │   │   │   ├── Lamellibrachia_luymesi.pseudogene.faa
     │   │   │   ├── Lamellibrachia_satsuma.pseudogene.faa
@@ -995,13 +971,10 @@
     │   │   │   ├── Paraescarpia_echinospica.pseudogene.faa
     │   │   │   ├── Paralvinella_palmiformis.pseudogene.faa
     │   │   │   ├── Platynereis_dumerilii.pseudogene.faa
-    │   │   │   ├── Poecilobdella_manillensis.pseudogene.faa
     │   │   │   ├── Ridgeia_piscesae.pseudogene.faa
     │   │   │   ├── Sipunculus_nudus.pseudogene.faa
     │   │   │   ├── Sthenelais_limicola.pseudogene.faa
-    │   │   │   ├── Streblospio_benedicti.pseudogene.faa
-    │   │   │   ├── Terebella_lapidaria.pseudogene.faa
-    │   │   │   └── Whitmania_pigra.pseudogene.faa
+    │   │   │   └── Terebella_lapidaria.pseudogene.faa
     │   │   ├── bivalvia
     │   │   │   ├── Archivesica_marissinica.pseudogene.faa
     │   │   │   ├── Atrina_japonica.pseudogene.faa
@@ -1060,10 +1033,8 @@
     │   │   │   ├── Architeuthis_dux.pseudogene.faa
     │   │   │   ├── Argonauta_argo.pseudogene.faa
     │   │   │   ├── Euprymna_scolopes.pseudogene.faa
-    │   │   │   ├── Hapalochlaena_maculosa.pseudogene.faa
     │   │   │   ├── Japetella_diaphana.pseudogene.faa
     │   │   │   ├── Muusoctopus_leioderma.pseudogene.faa
-    │   │   │   ├── Muusoctopus_longibrachus.pseudogene.faa
     │   │   │   ├── Nautilus_pompilius.pseudogene.faa
     │   │   │   ├── Octopus_bimaculoides.pseudogene.faa
     │   │   │   ├── Octopus_insularis.pseudogene.faa
@@ -1106,7 +1077,6 @@
     │   │   │   ├── Haliotis_laevigata.pseudogene.faa
     │   │   │   ├── Haliotis_rufescens.pseudogene.faa
     │   │   │   ├── Lottia_gigantea.pseudogene.faa
-    │   │   │   ├── Lottia_scabra.pseudogene.faa
     │   │   │   ├── Lymnaea_stagnalis.pseudogene.faa
     │   │   │   ├── Melanoides_tuberculata.pseudogene.faa
     │   │   │   ├── Oreohelix_idahoensis.pseudogene.faa
@@ -1122,7 +1092,6 @@
     │   │   │   └── Tritonia_tetraquetra.pseudogene.faa
     │   │   ├── other_lophotrochozoan_phyla
     │   │   │   ├── Bugula_neritina.pseudogene.faa
-    │   │   │   ├── Cristatella_mucedo.pseudogene.faa
     │   │   │   ├── Cryptosula_pallasiana.pseudogene.faa
     │   │   │   ├── Lineus_longissimus.pseudogene.faa
     │   │   │   ├── Lingula_anatina.pseudogene.faa
@@ -1131,7 +1100,6 @@
     │   │   │   ├── Phoronis_ovalis.pseudogene.faa
     │   │   │   └── Phoronis_pallida.pseudogene.faa
     │   │   ├── other_molluscan_classes
-    │   │   │   ├── Acanthochitona_crinita.pseudogene.faa
     │   │   │   ├── Acanthopleura_granulata.pseudogene.faa
     │   │   │   ├── Epimenia_babai.pseudogene.faa
     │   │   │   ├── Gadila_tolmiei.pseudogene.faa
@@ -1146,17 +1114,13 @@
     │   │       ├── Dibothriocephalus_latus.pseudogene.faa
     │   │       ├── Dicrocoelium_dendriticum.pseudogene.faa
     │   │       ├── Dugesia_japonica.pseudogene.faa
-    │   │       ├── Echinococcus_canadensis.pseudogene.faa
     │   │       ├── Echinostoma_caproni.pseudogene.faa
     │   │       ├── Fasciola_gigantica.pseudogene.faa
     │   │       ├── Fasciola_hepatica.pseudogene.faa
     │   │       ├── Fasciolopsis_buski.pseudogene.faa
     │   │       ├── Girardia_tigrina.pseudogene.faa
-    │   │       ├── Gyrodactylus_bullatarudis.pseudogene.faa
     │   │       ├── Gyrodactylus_salaris.pseudogene.faa
     │   │       ├── Heterobilharzia_americana.pseudogene.faa
-    │   │       ├── Hydatigera_taeniaeformis.pseudogene.faa
-    │   │       ├── Hymenolepis_diminuta.pseudogene.faa
     │   │       ├── Macrostomum_cliftonense.pseudogene.faa
     │   │       ├── Macrostomum_hystrix.pseudogene.faa
     │   │       ├── Macrostomum_lignano.pseudogene.faa
@@ -1168,21 +1132,14 @@
     │   │       ├── Prostheceraeus_crozeri.pseudogene.faa
     │   │       ├── Prostheceraeus_crozieri.pseudogene.faa
     │   │       ├── Proteocephalus_fallax.pseudogene.faa
-    │   │       ├── Protopolystoma_xenopodis.pseudogene.faa
     │   │       ├── Schistocephalus_solidus.pseudogene.faa
-    │   │       ├── Schistosoma_bovis.pseudogene.faa
     │   │       ├── Schistosoma_curassoni.pseudogene.faa
-    │   │       ├── Schistosoma_guineensis.pseudogene.faa
     │   │       ├── Schistosoma_haematobium.pseudogene.faa
     │   │       ├── Schistosoma_intercalatum.pseudogene.faa
     │   │       ├── Schistosoma_japonicum.pseudogene.faa
-    │   │       ├── Schistosoma_margrebowiei.pseudogene.faa
-    │   │       ├── Schistosoma_mattheei.pseudogene.faa
     │   │       ├── Schistosoma_rodhaini.pseudogene.faa
     │   │       ├── Schistosoma_turkestanicum.pseudogene.faa
     │   │       ├── Schmidtea_mediterranea.pseudogene.faa
-    │   │       ├── Sparganum_proliferum.pseudogene.faa
-    │   │       ├── Spirometra_erinaceieuropaei.pseudogene.faa
     │   │       └── Trichobilharzia_regenti.pseudogene.faa
     │   ├── total
     │   │   ├── annelida
@@ -1460,8 +1417,7 @@
     │       │   ├── Sipunculus_nudus.truncated.faa
     │       │   ├── Sthenelais_limicola.truncated.faa
     │       │   ├── Streblospio_benedicti.truncated.faa
-    │       │   ├── Terebella_lapidaria.truncated.faa
-    │       │   └── Whitmania_pigra.truncated.faa
+    │       │   └── Terebella_lapidaria.truncated.faa
     │       ├── bivalvia
     │       │   ├── Archivesica_marissinica.truncated.faa
     │       │   ├── Argopecten_purpuratus.truncated.faa
@@ -1470,7 +1426,6 @@
     │       │   ├── Botula_fusca.truncated.faa
     │       │   ├── Cerastoderma_edule.truncated.faa
     │       │   ├── Chlamys_farreri.truncated.faa
-    │       │   ├── Conchocele_bisecta.truncated.faa
     │       │   ├── Congeria_kusceri.truncated.faa
     │       │   ├── Corbicula_fluminea.truncated.faa
     │       │   ├── Crassostrea_angulata.truncated.faa
@@ -1478,7 +1433,6 @@
     │       │   ├── Crassostrea_gigas.truncated.faa
     │       │   ├── Crassostrea_hongkongensis.truncated.faa
     │       │   ├── Crassostrea_virginica.truncated.faa
-    │       │   ├── Cristaria_plicata.truncated.faa
     │       │   ├── Dreissena_polymorpha.truncated.faa
     │       │   ├── Dreissena_rostriformis.truncated.faa
     │       │   ├── Fragum_fragum.truncated.faa
@@ -1525,7 +1479,6 @@
     │       ├── cephalopoda
     │       │   ├── Architeuthis_dux.truncated.faa
     │       │   ├── Euprymna_scolopes.truncated.faa
-    │       │   ├── Hapalochlaena_maculosa.truncated.faa
     │       │   ├── Japetella_diaphana.truncated.faa
     │       │   ├── Muusoctopus_leioderma.truncated.faa
     │       │   ├── Muusoctopus_longibrachus.truncated.faa
@@ -1538,7 +1491,6 @@
     │       │   ├── Octopus_rubescens.truncated.faa
     │       │   ├── Octopus_sinensis.truncated.faa
     │       │   ├── Octopus_vulgaris.truncated.faa
-    │       │   ├── Sepia_pharaonis.truncated.faa
     │       │   └── Watasenia_scintillans.truncated.faa
     │       ├── gastropoda
     │       │   ├── Alviniconcha_marisindica.truncated.faa
@@ -1572,7 +1524,6 @@
     │       │   ├── Haliotis_discus_hannai.truncated.faa
     │       │   ├── Haliotis_laevigata.truncated.faa
     │       │   ├── Haliotis_rufescens.truncated.faa
-    │       │   ├── Lottia_gigantea.truncated.faa
     │       │   ├── Lymnaea_stagnalis.truncated.faa
     │       │   ├── Melanoides_tuberculata.truncated.faa
     │       │   ├── Oreohelix_idahoensis.truncated.faa
@@ -1615,10 +1566,7 @@
     │           ├── Cardicola_forsteri.truncated.faa
     │           ├── Clonorchis_sinensis.truncated.faa
     │           ├── Dibothriocephalus_latus.truncated.faa
-    │           ├── Dicrocoelium_dendriticum.truncated.faa
     │           ├── Dugesia_japonica.truncated.faa
-    │           ├── Echinococcus_canadensis.truncated.faa
-    │           ├── Echinostoma_caproni.truncated.faa
     │           ├── Fasciola_gigantica.truncated.faa
     │           ├── Fasciola_hepatica.truncated.faa
     │           ├── Fasciolopsis_buski.truncated.faa
@@ -1626,28 +1574,17 @@
     │           ├── Gyrodactylus_bullatarudis.truncated.faa
     │           ├── Gyrodactylus_salaris.truncated.faa
     │           ├── Heterobilharzia_americana.truncated.faa
-    │           ├── Hydatigera_taeniaeformis.truncated.faa
-    │           ├── Hymenolepis_diminuta.truncated.faa
     │           ├── Macrostomum_cliftonense.truncated.faa
     │           ├── Macrostomum_hystrix.truncated.faa
     │           ├── Macrostomum_lignano.truncated.faa
-    │           ├── Opisthorchis_felineus.truncated.faa
-    │           ├── Opisthorchis_viverrini.truncated.faa
     │           ├── Paragonimus_heterotremus.truncated.faa
     │           ├── Paragonimus_skrjabini_miyazakii.truncated.faa
     │           ├── Paragonimus_westermani.truncated.faa
     │           ├── Prostheceraeus_crozieri.truncated.faa
-    │           ├── Proteocephalus_fallax.truncated.faa
     │           ├── Schistocephalus_solidus.truncated.faa
     │           ├── Schistosoma_bovis.truncated.faa
     │           ├── Schistosoma_curassoni.truncated.faa
-    │           ├── Schistosoma_guineensis.truncated.faa
-    │           ├── Schistosoma_haematobium.truncated.faa
-    │           ├── Schistosoma_intercalatum.truncated.faa
-    │           ├── Schistosoma_japonicum.truncated.faa
-    │           ├── Schistosoma_margrebowiei.truncated.faa
     │           ├── Schistosoma_mattheei.truncated.faa
-    │           ├── Schistosoma_rodhaini.truncated.faa
     │           ├── Schistosoma_turkestanicum.truncated.faa
     │           ├── Schmidtea_mediterranea.truncated.faa
     │           ├── Sparganum_proliferum.truncated.faa
@@ -2196,23 +2133,22 @@
     │           ├── Macrostomum_hystrix.coordinates.csv
     │           ├── Macrostomum_lignano.coordinates.csv
     │           └── Prostheceraeus_crozeri.coordinates.csv
-    ├── Supplementary_figures
-    │   ├── S1.ai
-    │   ├── S1.pdf
-    │   ├── S1.png
-    │   └── S2.ai
-    │   ├── S2.pdf
-    │   ├── S2.png
-    │   ├── S3.ai
-    │   └── S3.pdf
-    │   ├── S3.png
-    │   ├── S4.ai
-    │   ├── S4.pdf
-    │   └── S4.png
+    └── Supplementary_figures
+        ├── S1.ai
+        ├── S1.pdf
+        ├── S1.png
+        ├── S2.ai
+        ├── S2.pdf
+        ├── S2.png
+        ├── S3.ai
+        ├── S3.pdf
+        ├── S3.png
+        ├── S4.ai
+        ├── S4.pdf
+        └── S4.png
     ├── data S1.xlsx
     ├── data S2.xlsx
     └── data S3.xlsx
-    
 ```
 107 directories, 2107 files
 
