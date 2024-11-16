@@ -4437,3 +4437,41 @@
 
 207 directories, 4229 files
 ```
+
+Here’s a summary of the supplementary data folders and their contents in text format:
+
+---
+
+### **Contents**
+1. **BUSCO**
+   - Contains subfolders for different taxa (e.g., annelida, bivalvia, cephalopoda, gastropoda) with BUSCO analysis results for specific lineages.
+
+2. **FASTA_files**
+   - **full_length**: Full-length FASTA sequences for each taxa.
+   - **lse**: Lineage-specifically expanded sequences for each taxa.
+   - **one_to_one_ortholog**: FASTA files of one-to-one orthologous sequences for each taxa.
+   - **pseudogene**: FASTA sequences for identified pseudogenes for each taxa.
+   - **total**: Total FASTA sequences across all categories for each taxa.
+   - **truncated**: FASTA sequences of truncated genes for each taxa.
+
+3. **Phylogenetic_trees**
+   - **intragenus_tree**: Phylogenetic trees within genera like Macrostomum and Phoronis.
+   - **main_tree**: Major phylogenetic trees for lineages (e.g., annelida, bivalvia, gastropoda).
+   - **supplementary_tree**: Additional or supplementary phylogenetic trees for the same lineages.
+
+4. **Residue_contact_analysis**
+   - Contains residue contact analysis results for various taxa.
+
+5. **scaffold_coordinates**
+   - Contains scaffold coordinates for various taxa.
+
+6. **Supplementary_figures**
+   - Contains figures used in the supplementary materials.
+
+7. **WGD (Whole Genome Duplication)**
+   - Contains subfolders for different species (e.g., anisus_vortex, biomphalaria_pfeifferi, rapana_venosa) with the following results:
+     - **wgd_ELMM**: WGD results using the ELMM model.
+     - **wgd_peak**: Peak analysis for identifying WGD signals.
+     - **wgd_syn**: Synteny-based WGD results.
+
+---
