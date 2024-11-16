@@ -2173,7 +2173,6 @@
 │   ├── S5.ai
 │   ├── S5.pdf
 │   └── S5.png
-├── temp
 └── WGD
     ├── anisus_vortex
     │   ├── wgd_ELMM
